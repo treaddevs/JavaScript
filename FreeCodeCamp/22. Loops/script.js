@@ -84,4 +84,14 @@ console.log(product); // 1 * 1 * 2 * 3 * 4 * 5 * 6 * 7 = 5040
 
 
 //--------------------------------------------------------------//
-// Testing 1, 2, 3
+// Do While Loops
+myArray5 = [];
+var i = 10;
+
+do { // Runs before condition is checked
+    myArray5.push(i);
+    i++;
+} while (i < 5)
+
+console.log(i, myArray5); // 11 [10]
+//--------------------------------------------------------------//
